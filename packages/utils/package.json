@@ -1,0 +1,19 @@
+{
+  "name": "@ydhtml-cli-dev/utils",
+  "version": "1.0.0",
+  "description": "ydhtml-cli-dev utils",
+  "author": "刘小龙 <liuxiaolong@polyv.net>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Run testing form utils\""
+  }
+}
