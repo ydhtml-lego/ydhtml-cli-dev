@@ -22,5 +22,8 @@
   "dependencies": {
     "@ydhtml-cli-dev/utils": "^1.0.2"
   },
-  "gitHead": "2c23d1b55874a607d0d6020a64baf280f48a6253"
+  "gitHead": "2c23d1b55874a607d0d6020a64baf280f48a6253",
+  "publishConfig": {
+    "access": "public"
+  }
 }
