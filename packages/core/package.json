@@ -6,6 +6,9 @@
   "homepage": "",
   "license": "ISC",
   "main": "lib/core.js",
+  "bin": {
+    "ydhtml-cli-dev": "bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -19,5 +22,5 @@
   "dependencies": {
     "@ydhtml-cli-dev/utils": "^1.0.2"
   },
-  "gitHead": "aabfdf1e51c67b36e2ca6da48826025130dc1ed2"
+  "gitHead": "2c23d1b55874a607d0d6020a64baf280f48a6253"
 }
