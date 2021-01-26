@@ -18,5 +18,6 @@
   },
   "dependencies": {
     "@ydhtml-cli-dev/utils": "^1.0.1"
-  }
+  },
+  "gitHead": "aabfdf1e51c67b36e2ca6da48826025130dc1ed2"
 }
