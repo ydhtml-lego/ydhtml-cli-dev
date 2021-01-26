@@ -1,6 +1,6 @@
 {
   "name": "@ydhtml-cli-dev/core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ydhtml-cli-dev core",
   "author": "刘小龙 <liuxiaolong@polyv.net>",
   "homepage": "",
@@ -17,7 +17,7 @@
     "test": "echo \"Run testing form core\""
   },
   "dependencies": {
-    "@ydhtml-cli-dev/utils": "^1.0.1"
+    "@ydhtml-cli-dev/utils": "^1.0.2"
   },
   "gitHead": "aabfdf1e51c67b36e2ca6da48826025130dc1ed2"
 }
