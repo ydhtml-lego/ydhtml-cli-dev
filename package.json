@@ -1,8 +1,11 @@
 {
   "name": "ydhtml-cli-dev",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "ydhtml-cli dev",
   "main": "index.js",
+  "bin": {
+    "ydhtml-cli-dev": "core/cli/bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
