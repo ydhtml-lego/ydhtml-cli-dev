@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "@ydhtml-cli-dev/package": "file:../../models/package",
-    "@ydhtml-cli-dev/log": "file:../../utils/log"
+    "@ydhtml-cli-dev/log": "file:../../utils/log",
+    "@ydhtml-cli-dev/utils": "file:../../utils/utils"
   }
 }

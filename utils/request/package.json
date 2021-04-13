@@ -1,5 +1,5 @@
 {
-  "name": "@ydhtml-cli-dev/init",
+  "name": "@ydhtml-cli-dev/request",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "林间有风 <1538795093@qq.com>",
@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npm.taobao.org"
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -27,17 +27,6 @@
     "url": "https://github.com/9yues/ydhtml-cli-dev/issues"
   },
   "dependencies": {
-    "@ydhtml-cli-dev/command": "file:../../models/command",
-    "@ydhtml-cli-dev/log": "file:../../utils/log",
-    "@ydhtml-cli-dev/package": "file:../../models/package",
-    "@ydhtml-cli-dev/request": "file:../../utils/request",
-    "@ydhtml-cli-dev/utils": "file:../../utils/utils",
-    "ejs": "^3.1.6",
-    "fs-extra": "^9.1.0",
-    "glob": "^7.1.6",
-    "inquirer": "^8.0.0",
-    "kebab-case": "^1.0.1",
-    "semver": "^7.3.5",
-    "user-home": "^3.0.0"
+    "axios": "^0.21.1"
   }
 }

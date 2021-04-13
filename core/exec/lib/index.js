@@ -4,6 +4,7 @@ const cp = require('child_process')
 const path = require('path')
 const Package = require('@ydhtml-cli-dev/package')
 const log = require('@ydhtml-cli-dev/log')
+const { exec: spawn } = require('@ydhtml-cli-dev/utils')
 
 const SETTINGS = {
     // init: '@ydhtml-cli/init',
@@ -97,17 +98,6 @@ async function exec() {
     // 2. modulePath -> Package(npm模块)
     // 3. Package.getRootFile(获取入口文件)
     // 4. Package.update / Package.install
-}
-
-
-
-function spawn(command, args, options) {
-    const win32 = process.platform === 'win32'
-
-    const cmd = win32 ? 'cmd': command
-    const cmdArgs = win32 ? ['/c'].concat(command, args): args
-
-    return cp.spawn('cmd', cmdArgs, options || {})
 }
 
 
