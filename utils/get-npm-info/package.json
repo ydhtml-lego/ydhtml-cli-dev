@@ -1,5 +1,5 @@
 {
-  "name": "get-npm-info",
+  "name": "@ydhtml-cli-dev/get-npm-info",
   "version": "1.0.6",
   "description": "get npm info",
   "author": "刘小龙 <liuxiaolong@polyv.net>",
@@ -30,5 +30,6 @@
     "axios": "^0.21.1",
     "semver": "^7.3.4",
     "url-join": "^4.0.1"
-  }
+  },
+  "gitHead": "f35808c6a63f389749345d9370de5c2e3a297d54"
 }

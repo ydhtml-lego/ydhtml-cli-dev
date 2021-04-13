@@ -27,11 +27,11 @@
     "url": "https://github.com/9yues/ydhtml-cli-dev/issues"
   },
   "dependencies": {
-    "@ydhtml-cli-dev/command": "file:../../models/command",
-    "@ydhtml-cli-dev/log": "file:../../utils/log",
-    "@ydhtml-cli-dev/package": "file:../../models/package",
-    "@ydhtml-cli-dev/request": "file:../../utils/request",
-    "@ydhtml-cli-dev/utils": "file:../../utils/utils",
+    "@ydhtml-cli-dev/command": "^1.0.6",
+    "@ydhtml-cli-dev/log": "^1.0.6",
+    "@ydhtml-cli-dev/package": "^1.0.6",
+    "@ydhtml-cli-dev/request": "^1.0.6",
+    "@ydhtml-cli-dev/utils": "^1.0.6",
     "ejs": "^3.1.6",
     "fs-extra": "^9.1.0",
     "glob": "^7.1.6",
@@ -39,5 +39,6 @@
     "kebab-case": "^1.0.1",
     "semver": "^7.3.5",
     "user-home": "^3.0.0"
-  }
+  },
+  "gitHead": "f35808c6a63f389749345d9370de5c2e3a297d54"
 }

@@ -27,12 +27,13 @@
     "url": "https://github.com/9yues/ydhtml-cli-dev/issues"
   },
   "dependencies": {
-    "@ydhtml-cli-dev/format-path": "file:../../utils/format-path",
+    "@ydhtml-cli-dev/format-path": "^1.0.6",
     "@ydhtml-cli-dev/get-npm-info": "file:../../utils/get-npm-info",
-    "@ydhtml-cli-dev/utils": "file:../../utils/utils",
+    "@ydhtml-cli-dev/utils": "^1.0.6",
     "fs-extra": "^9.1.0",
     "npminstall": "^4.11.0",
     "path-exists": "^4.0.0",
     "pkg-dir": "^5.0.0"
-  }
+  },
+  "gitHead": "f35808c6a63f389749345d9370de5c2e3a297d54"
 }

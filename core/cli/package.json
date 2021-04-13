@@ -20,10 +20,10 @@
     "test": "echo \"Run testing form core\""
   },
   "dependencies": {
-    "@ydhtml-cli-dev/exec": "file:../exec",
+    "@ydhtml-cli-dev/exec": "^1.0.6",
     "@ydhtml-cli-dev/get-npm-info": "file:../../utils/get-npm-info",
-    "@ydhtml-cli-dev/init": "file:../../commands/init",
-    "@ydhtml-cli-dev/log": "file:../../utils/log",
+    "@ydhtml-cli-dev/init": "^1.0.6",
+    "@ydhtml-cli-dev/log": "^1.0.6",
     "colors": "^1.4.0",
     "commander": "^7.2.0",
     "dotenv": "^8.2.0",
@@ -34,7 +34,7 @@
     "semver": "^7.3.4",
     "user-home": "^2.0.0"
   },
-  "gitHead": "ebea3ce520dd4230e8e76aa9e2f2a45a6e0a52cb",
+  "gitHead": "f35808c6a63f389749345d9370de5c2e3a297d54",
   "publishConfig": {
     "access": "public"
   }
